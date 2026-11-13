@@ -4,7 +4,7 @@
 
 ## Hi, I'm Florin 
 
-I build software, and I like it most when it ends up doing real work for someone. My projects so far: an AI assistant, a few desktop and mobile apps, and a small gadget on an ESP32.
+My projects so far: an AI assistant, a few desktop and mobile apps, and a small gadget on an ESP32.
 
 ## What I'm working on now
 
