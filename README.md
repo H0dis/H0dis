@@ -8,16 +8,25 @@ My projects so far: an AI assistant, a few desktop and mobile apps, and a small 
 
 ## What I'm working on now
 
-My main project is **[Autonomus](https://github.com/H0dis/Autonomus-AI-company)**, an AI assistant for small businesses that runs on your own computer. You talk to an AI "COO", a team of AI workers does the job, and nothing goes out until you approve it.
+<p align="center">
+  <a href="https://github.com/H0dis/Autonomus-AI-company">
+    <img src="https://raw.githubusercontent.com/H0dis/Autonomus-AI-company/main/images/v5-home.png" alt="Autonomus: one screen with a presence orb, what is waiting for the owner, and one box to talk to it" width="90%">
+  </a>
+</p>
 
-I started it in September 2026. It knows the whole company, uses tools when it needs them, and later you'll be able to talk to it by voice.
+My main project is **[Autonomus](https://github.com/H0dis/Autonomus-AI-company)**, an AI assistant for small businesses that runs on your own computer. You talk to an AI "COO", a team of AI workers does the job, and nothing goes out until you approve it. While you are away, it can read the inbox, handle what you allowed, and tell you the moment something is urgent. Money, contracts, hiring and deletions always ask you.
 
-The source code is private, but the repo has screenshots, the design and the results. If you'd like a walkthrough or a code review, just write to me.
+I started it in September 2026 and it is now at v5. The source code is private, but the repo has screenshots, the design and the results, including the weak spots. If you'd like a walkthrough or a code review, just write to me.
 
-I wanted to measure it, not just show a demo. So I gave it ten real small-business jobs and ran each one three times. The first run passed 1 of 10. The latest passed **27 of 30 (90%), at about $0.009 per job**. The project has around 1,900 automated tests.
+I wanted to measure it, not just show a demo. Ten real small-business jobs, three runs each: the first run passed 1 of 10, v3 passed **27 of 30 (90%) at about $0.009 per job**. For the part that works while you're away, a simulated office with traps in it: it caught **18 of 18** real urgent things with no false alarms, and still struggles with harmless questions it can't answer yet (43 of 60), which I say openly. About 4,200 automated tests.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/H0dis/Autonomus-AI-company/main/images/benchmark.png" alt="Autonomus benchmark over time" width="85%">
+  <a href="https://github.com/H0dis/Autonomus-AI-company#how-it-evolved">
+    <img src="https://raw.githubusercontent.com/H0dis/Autonomus-AI-company/main/images/evolution/2-first-real-use-oct-15.png" alt="Autonomus on 15 October" width="30%">
+    <img src="https://raw.githubusercontent.com/H0dis/Autonomus-AI-company/main/images/evolution/3-redesign-oct-28.png" alt="Autonomus on 28 October" width="30%">
+    <img src="https://raw.githubusercontent.com/H0dis/Autonomus-AI-company/main/images/v5-home.png" alt="Autonomus today" width="30%">
+  </a>
+  <br><sub>15 October, 28 October, today.</sub>
 </p>
 
 ## Smaller projects
