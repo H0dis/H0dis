@@ -16,7 +16,7 @@ My projects so far: an AI assistant, a few desktop and mobile apps, and a small 
 
 My main project is **[Autonomus](https://github.com/H0dis/Autonomus-AI-company)**, an AI assistant for small businesses that runs on your own computer. You talk to an AI "COO", a team of AI workers does the job, and nothing goes out until you approve it. While you are away, it can read the inbox, handle what you allowed, and tell you the moment something is urgent. Money, contracts, hiring and deletions always ask you.
 
-I started it in September 2026 and it is now at v5. The source code is private, but the repo has screenshots, the design and the results, including the weak spots. If you'd like a walkthrough or a code review, just write to me.
+I started it in September 2026 and it is now at v5. The source code is private, but the repo has screenshots, the design and the results, including the weak spots. If you'd like a walkthrough or a code review, just write to me. There is also a **[short brochure with a live demo](https://h0dis.github.io/Autonomus-AI-company/)** you can open in a browser.
 
 I wanted to measure it, not just show a demo. Ten real small-business jobs, three runs each: the first run passed 1 of 10, v3 passed **27 of 30 (90%) at about $0.009 per job**. For the part that works while you're away, a simulated office with traps in it: it caught **18 of 18** real urgent things with no false alarms, and still struggles with harmless questions it can't answer yet (43 of 60), which I say openly. About 4,200 automated tests.
 
